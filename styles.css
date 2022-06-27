@@ -1,0 +1,78 @@
+:root {
+    --white: #fff;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    color: #5390d9;
+}
+
+.vienna-hero-img {
+    background-image: url("images/wien.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    text-shadow: 2px 2px #5390d9;
+}
+
+
+
+.midcard {
+    background-color: #c4fff9;
+    padding: 10px 25px;
+} 
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    padding: 15px;
+}
+
+.columns-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+} 
+
+#avatar {
+    width: 150px;
+    margin-right: 25px;
+}
+
+.guidecard {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto 50px;
+    text-align: center;
+    background: #ddebf8;
+    padding: 15px;
+    border-bottom: 10px solid #68d8d6;
+    border-radius: 5px;
+    
+}
+
+
+@media screen and (min-width: 600px) {
+    .columns {
+        flex-direction: row;
+    }
+}
